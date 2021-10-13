@@ -1,0 +1,224 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.header{
+	background-color:rgb(56,128,255);
+	text-align:center;
+	padding:10px 0px;
+}
+
+.header .auth-title{
+	color:white;
+	font-family: sans-serif;
+	font-weight:450;
+}
+
+.aut-container{
+	text-align:center;
+	padding-top:40px;
+}
+
+.form-message{
+	font-family: sans-serif;
+	color:white;
+	text-align: center;
+	font-size:12pt;	
+}
+
+form{
+	background-color:rgb(56,128,255);
+	width:500px;
+	margin:0px auto;
+	padding:20px 0px;
+}
+
+.aut-container form h1{
+	font-family: sans-serif;
+	color:white;
+	margin-bottom: 20px;
+}
+.input-field{
+	
+	width:80%;
+	margin:17px auto;
+}
+
+::placeholder{
+	color:rgba(255,255,255,.8);
+}
+
+.input-field input{
+	width:100%;
+	border:none;
+	border-bottom:1.2px solid white;
+	background-color:rgb(56,128,255);
+	color:white;
+	font-size:14pt;
+	text-align:left;
+}
+
+.input-field input:focus{
+	border:none;
+	border-bottom:1.2px solid whitesmoke;
+	outline: none;
+
+}
+
+
+.btn{
+	width:100%;
+	font-size:12pt;
+	font-family: sans-serif;
+	background: white;
+	color:rgb(56,128,255);
+	border:none;
+	padding:8px 0px;
+	cursor: pointer;
+}
+
+.Deshboard-header{
+	background-color:rgb(56,128,255);
+	padding:10px 20px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.Deshboard-header .header-title{
+	font-family: sans-serif;
+	color:white;
+	font-weight: 470;
+	text-align: center;
+}
+
+.Deshboard-header ul{
+	list-style: none;
+}
+
+.Deshboard-header ul li{
+	display:inline;
+	margin-right:20px;
+}
+
+
+
+
+
+.Deshboard-header ul li a{
+	font-family: sans-serif;
+	font-size:15pt;
+	color:rgba(255,255,255,.8);
+	text-decoration: none;
+	font-weight:470;
+}
+
+.Deshboard-header ul li a:hover{
+	color:white;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: 1fr 2.5fr;
+	margin:5px;
+	height:400px;
+}
+
+.container .Deshboard-menus{
+	background-color:rgb(56,128,255);
+
+}
+
+.container .Deshboard-menus ul{
+	list-style: none;
+}
+
+.container .Deshboard-menus ul li{
+	padding:20px 10px;
+	border-bottom:1.5px solid rgba(255,255,255,.6);
+	width:100%;
+}
+
+.container .Deshboard-menus ul a{
+	text-decoration: none;
+	font-size:17pt;
+	font-family: sans-serif;
+	width:100%;
+	color:rgba(255,255,255,.7);
+}
+
+.container .Deshboard-menus ul a:hover{
+	color:rgba(255,255,255,1);
+}
+
+.container .content{
+	padding:0px 30px;
+}
+
+.container .content .card-container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+}
+
+.container .content .menu-card{
+	color:white;
+	background-color:rgba(56,128,255,.8);
+	text-decoration: none;
+	text-align: center;
+	padding:60px 0px;
+	font-family: sans-serif;
+	font-size:18pt;
+}
+
+.container .content .menu-card:hover{
+	background-color:rgba(56,128,255,1);
+}
+
+#Deshboard-form{
+	width: 100%;
+}
+
+
+.productContainer{
+	margin-top:30px;
+	background-color:rgba(56,128,255,1);
+	padding:20px;
+	font-family: sans-serif;
+	color:white;
+}
+
+#btn-delete{
+	width:100%;
+	font-size:12pt;
+	font-family: sans-serif;
+	background: rgba(255,0,0,.7);
+	color:white;
+	border:none;
+	padding:8px 0px;
+	cursor: pointer;
+}
+
+a{
+	text-decoration: none;
+}
+
+.transaction{
+	background-color:rgba(70,128,255,1);
+	font-family: sans-serif;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	margin-bottom:10px;
+	padding:20px 10px;
+}
+
+.transaction h1{
+	color:white;
+	font-size:13pt;
+}
+
+
+
+
+
+
