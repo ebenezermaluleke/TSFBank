@@ -8,4 +8,10 @@
 # flow
 - Home Page > View all Customers > Select and View one Customer > Transfer Money > Select customer to transfer to > view all Customers.
 - No Login Page. No User Creation. Only transfer of money between multiple user.
-- Hosted website at G0ithub https://github.com/ebenezermaluleke/TSFBank.git and 000webhost 
+- Hosted website at Github https://github.com/ebenezermaluleke/TSFBank.git and 000webhost  https://ebenezertsf.000webhostapp.com/
+
+# Website Folder
+- contain the front-end code written in HTML, CSS, JavaScript, and PHP
+
+# webService Folder
+- contain back-end (API) and SQL db
